@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;# name #&gt;.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
+        &lt;# name #&gt;.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
+        &lt;# name #&gt;.topAnchor.constraint(equalTo: topAnchor).isActive = true
+        &lt;# name #&gt;.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F48B0413-3F13-49E0-9211-1CAA54DEA505</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>LX Constraints Fit Parrent</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
