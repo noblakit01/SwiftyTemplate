@@ -9,3 +9,7 @@ Xcode Default Templates Directory
 ```
 /Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File Templates
 ```
+Xcode Custom Code snippets
+```
+~/Library/Developer/Xcode/UserData/CodeSnippets/ 
+```
