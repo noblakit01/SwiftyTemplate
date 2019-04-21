@@ -3,27 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lx-button</string>
+	<string>lx-alert controller</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let &lt;# name #&gt;: UIButton = {
-        let button = UIButton()
-button.clipsToBounds = true
-        button.translatesAutoresizingMaskIntoConstraints = false
-        return button
-    }()</string>
+	<string>let alertVC = UIAlertController(title: title, message: message, preferredStyle: &lt;#T##UIAlertController.Style#&gt;)
+        
+        let okAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
+        alertVC.addAction(okAction)
+        present(alertVC, animated: true, completion: nil)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C52466D8-AD78-426C-9F52-F53AEE5C1A63</string>
+	<string>FB9D589B-863C-43BD-9078-62B6D4A2B92E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>LX Button</string>
+	<string>LX Alert Controller</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

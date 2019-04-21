@@ -3,27 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lx-button</string>
+	<string>lx-constraints-center-view</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let &lt;# name #&gt;: UIButton = {
-        let button = UIButton()
-button.clipsToBounds = true
-        button.translatesAutoresizingMaskIntoConstraints = false
-        return button
-    }()</string>
+	<string>&lt;# name 1 #&gt;.centerXAnchor.constraint(equalTo: &lt;# name 2 #&gt; .centerXAnchor).isActive = true
+        &lt;# name 1 #&gt;.centerYAnchor.constraint(equalTo: &lt;# name 2 #&gt;.centerYAnchor).isActive = true</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C52466D8-AD78-426C-9F52-F53AEE5C1A63</string>
+	<string>56DF72F7-ADDF-4E40-98A4-3990CED20BB0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>LX Button</string>
+	<string>LX Constraints Center View</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
