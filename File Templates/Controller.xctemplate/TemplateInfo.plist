@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>A Controller with external view with Swift UI preview</string>
+	<key>Summary</key>
+	<string>SwiftUI View</string>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>DefaultCompletionName</key>
+	<string>File</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.macosx</string>
+		<string>com.apple.platform.iphoneos</string>
+		<string>com.apple.platform.watchos</string>
+		<string>com.apple.platform.appletvos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the controller to create</string>
+			<key>Identifier</key>
+			<string>moduleName</string>
+			<key>Name</key>
+			<string>New Controller Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___VC</string>
+			<key>Description</key>
+			<string>The view controller file name</string>
+			<key>Identifier</key>
+			<string>controllersName</string>
+			<key>Name</key>
+			<string>Controllers Name</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___UIView</string>
+			<key>Description</key>
+			<string>The name of the file UI of this controller</string>
+			<key>Identifier</key>
+			<string>uiViewName</string>
+			<key>Name</key>
+			<string>UI name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+</dict>
+</plist>
