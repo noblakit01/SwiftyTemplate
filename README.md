@@ -13,3 +13,9 @@ Xcode Custom Code snippets
 ```
 ~/Library/Developer/Xcode/UserData/CodeSnippets/ 
 ```
+
+## Xcode 12
+Custom templates directory
+```
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/
+```
